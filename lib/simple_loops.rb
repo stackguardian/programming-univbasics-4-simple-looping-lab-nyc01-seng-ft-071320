@@ -17,5 +17,6 @@ end
 
 def output_array(array)
   counter = 0 
-  while array[counter]
+  while array[counter] do 
+    puts 
   

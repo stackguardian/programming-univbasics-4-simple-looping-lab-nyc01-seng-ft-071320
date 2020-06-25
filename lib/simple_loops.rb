@@ -7,9 +7,9 @@ while counter < string.length do
 end
 end
 
-def loop_message_n_times(string, integer)
+def loop_message_n_times(string, number)
 counter = 0 
-while counter < integer.length do 
+while counter < number.length do 
   puts string
   counter += 1 
 end

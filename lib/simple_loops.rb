@@ -24,10 +24,10 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  counter = 0 
-  while array[counter] do
-    puts array.to_s 
-    counter += 1 
-  end 
+  count = 0
+  while counter < array.length do
+    array[counter].to_s
+    counter += 1
+  end
 end
   

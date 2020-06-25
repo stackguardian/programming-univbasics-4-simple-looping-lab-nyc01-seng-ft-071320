@@ -6,3 +6,5 @@ while counter < string.length do
   counter += 1 
 end
 end
+
+def loop_message_n_times(string, integer)
